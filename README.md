@@ -1,7 +1,7 @@
 # Basic Chatbot Trained on Reddit Data
 
-To execute download twitter dataset from [here](https://www.kaggle.com/reddit/reddit-comments-may-2015)
-place in the datasets/may_reddit diretory and unzip and run
+To execute download reddit shower thoughts dataset from [here](https://www.kaggle.com/reddit/reddit-comments-may-2015)
+place in the datasets/may_reddit diretory and unzip and run (Make sure you're in the datasets/may_reddit directory).
 
 ```
 python data.py
