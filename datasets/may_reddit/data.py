@@ -40,12 +40,17 @@ def read_lines(filename):
   print(query)
 
   sql_conn = sqlite3.connect('database.sqlite')
+  print(sql_conn)
   query_results = sql_conn.execute(query)
+  print(query_results)
 
   questions, responses = [], []
+  idx = 0
   for result in query_results:
     questions.append(result[1])
     responses.append(result[4])
+    print(idx)
+    idx += 1
 
   print(len(questions), len(responses))
   print(questions[0:10])
